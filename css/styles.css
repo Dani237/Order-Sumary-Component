@@ -100,7 +100,7 @@ img {
 }
 .change {
     color: var(--brgt-blue);
-    transition: all 0.7s ease;
+    transition: all 0.5s ease;
 }
 .plan-cost {
     display: flex;
@@ -133,7 +133,7 @@ img {
     text-align: center;
     padding: 1.3rem;
     filter: drop-shadow(0px 20px 15px rgb(200, 204, 242));
-    transition: all 0.7s ease;
+    transition: all 0.5s ease;
 }
 h4 {
     margin: 0; 
@@ -141,7 +141,7 @@ h4 {
 .cancel {
     margin-bottom: 4.5rem;
     display: inline-block;
-    transition: all 0.7s ease;
+    transition: all 0.5s ease;
 }
 .btn,
 .cancel {
