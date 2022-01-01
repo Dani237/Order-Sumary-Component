@@ -2,38 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Frontend Mentor | Order summary card</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+
 </head>
 <body>
 
     <main>
 
-        <header class="hero">
-            <img src="images/illustration-hero.svg" alt="The hero image">
-        </header>
+        <div class="card">
+            <header>
+                <img class="hero" src="images/illustration-hero.svg" alt="The hero image">
+            </header>
 
-        <section class="info">
-            <h1 class="info-title">Order Summary</h1>
-            <p class="info-text">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-        </section>
+            <section class="info content">
+                <h1 class="info-title">Order Summary</h1>
+                <p class="info-text">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+            </section>
 
-        <section class="plan">
-            <img src="images/icon-music.svg" alt="A music image">
-            <div class="plan-cost">
-                <p class="plan-cost-title">Annual Plan</p>
-                <p class="plan-cost-amount">$59.99/year</p>
-            </div>
-            <a href="#">Change</a>
-        </section>
+            <section class="plan content">
+                <div class="anual">
+                    <img src="images/icon-music.svg" alt="A music image">
+                    <div class="plan-cost">
+                        <p class="plan-cost-title">Annual Plan</p>
+                        <p class="plan-cost-amount">$59.99/year</p>
+                    </div>
+                </div>
+                <a href="#" class="change">Change</a>
+            </section>
 
-        <section class="buttons">
-            <a href="#" class="btn">Proceed to Payment</a>
-            <p class="cancel">Cancel Order</p>
-        </section>
+            <section class="buttons content">
+                <div class="btn">
+                    Proceed to Payment
+                </div>
+                <p class="cancel">Cancel Order</p>
+            </section>
+        </div>
 
     </main>
 
