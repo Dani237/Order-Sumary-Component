@@ -119,7 +119,7 @@ img {
 
 .buttons {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: safe center;
     justify-content: center;
     margin-top: 2.3rem;
